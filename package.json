@@ -1,0 +1,16 @@
+{
+  "name": "user-data",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "app.js",
+  "type": "module",
+  "start": "node --experimental-json-modules example.js",
+  "scripts": {
+    "test": "node .\\app.js"
+  },
+  "keywords": [
+    "run"
+  ],
+  "author": "Arnab",
+  "license": "ISC"
+}

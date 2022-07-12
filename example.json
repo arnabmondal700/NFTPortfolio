@@ -1,0 +1,26 @@
+{
+    "person": [
+        {
+            "First_name": "Arnab",
+            "Last_name": "Mondal",
+            "phone": 8981584347,
+            "email":"arnabmondal700@gmail.com",
+            "address":"Serampore",
+            "state":"West Bengal",
+            "pin":712202,
+            "country": "India",
+            "age": 30
+          },
+          {
+            "First_name": "Dipayan",
+            "Last_name": "kundu",
+            "phone": 8981584347,
+            "email":"dipayan700@gmail.com",
+            "address":"Kolkata",
+            "state":"West Bengal",
+            "pin":712506,
+            "country": "India",
+            "age": 30
+          }
+    ]
+  }

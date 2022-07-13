@@ -7,21 +7,21 @@ export class User {
     state;
     pin;
     country;
-    constructor(fname, lname, age, email, address, state, pin, country) {
-        this.fname = fname;
-        this.lname = lname;
-        this.age = age;
-        this.email = email;
-        this.address = address;
-        this.state = state;
-        this.pin = pin;
-        this.country = country;
+    constructor(el) {
+        this.fname = el.First_name;
+        this.lname = el.Last_name;
+        this.age = el.age;
+        this.email = el.email;
+        this.address = el.address;
+        this.state = el.state;
+        this.pin = el.pin;
+        this.country = el.country;
     }
     render = () => {
         return `
-        <div class="d-flex flex-column w-100 border m-2"> 
-            <span>User : ` + this.fname + ` ` + this.lname + `</span>
-            <span> he is `+ this.age + ` years age. and he lives in ` + this.country + `</span>
+        <div class="d-flex flex-column col-12 border my-2"> 
+            <div>User : ` + this.fname + ` ` + this.lname + `</div>
+            <div> he is `+ this.age + ` years age. and he lives in ` + this.country + `</div>
         </div>`
     }
 }
